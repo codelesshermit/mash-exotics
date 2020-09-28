@@ -1,4 +1,13 @@
-header, footer {
+body{
+    overflow: auto;
+}
+header {
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 30px;
+}
+footer {
     background-color: #333;
     color: #ddd;
     text-align: center;
@@ -8,10 +17,6 @@ h6{
     float: right;
     margin-right: 5px;
     color: rgb(245, 18, 10);
-}
-.content{
-    height: 678px;
-    width: auto;
 }
 .toolbox{
     background-color: #333;
@@ -25,11 +30,17 @@ h6{
     color: #ddd;
     display: block;
 }
-img{
+.carlist img{
     width: 135px;
     height: 120px;
     margin: 4px auto;
 }
 .carlist>li{
     list-style-type: none;
+    margin: auto;
+}
+.content img{
+    width:70%;
+    margin:auto;
+    overflow: auto;
 }
