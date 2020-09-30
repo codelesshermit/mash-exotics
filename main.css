@@ -1,5 +1,6 @@
 body{
     overflow: auto;
+    padding-top: 100px;
 }
 .navbar{
     margin: 0px !important;
