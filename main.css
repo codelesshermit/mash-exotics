@@ -1,11 +1,13 @@
 body{
     overflow: auto;
 }
-header {
-    background-color: #333;
-    color: #ddd;
-    text-align: center;
-    padding: 30px;
+.navbar{
+    margin: 0px !important;
+    font-size: 20px;
+}
+.logo img{
+    width: 30%;
+    height: 80px;
 }
 footer {
     background-color: #333;
@@ -43,4 +45,4 @@ h6{
     width:70%;
     margin:auto;
     overflow: auto;
-}
+} 
