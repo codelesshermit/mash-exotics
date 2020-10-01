@@ -38,7 +38,15 @@
   </div><!-- /.container-fluid -->
 </nav>
     </header>
-    <div class="container-fluid container-sm-height top-section">
+    <div class="container-fluid">
+        <div class="row">
+           <div class="top" style="background-image: url(images/luxury-cars.jpg)">
+    </div> 
+        </div>
+    </div>
+    
+   
+    <div class="container-fluid container-sm-height">
         <div class="row row-sm-height">
             <section class="col-sm-7 col-sm-push-2 col-sm-height content">
                <h2>Mash Exotics Blog</h2>
@@ -126,6 +134,18 @@
         <h1>footer</h1>
         <h6>Disclaimer!! Most of the images are downloaded from the internet hence we don't own the copyrights to the images</h6>
     </footer>
+
+
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js">
+        //alert(window.screen.availHeight);
+        $(function() {
+          $(window).on("load resize", function(){
+            $(".top").css("height", window.innerHeight);
+                });
+            });
+        
+    </script>
+    <script type="text/javascript" ></script>
 <!--animated header js-->
     <script src="scripts/classie.js"></script>
     <script src="scripts/cbpAnimatedHeader.min.js"></script>
